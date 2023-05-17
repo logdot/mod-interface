@@ -7,33 +7,25 @@
  *
  * *REQUIRED*
  */
-DllExport inline const char* Name() {
-    return "";
-}
+DllExport const char* Name();
 
 /**
  * The version of your mod.
  *
  * *REQUIRED*
  */
-DllExport inline const char* Version() {
-    return "";
-}
+DllExport const char* Version();
 
 /**
  * The version of the game your mod is intended to work on.
  *
  * *REQUIRED*
  */
-DllExport inline const char* GameVersion() {
-    return "";
-}
+DllExport const char* GameVersion();
 
 /**
  * The github link to your mod.
  *
- * *OPTIONAL*
+ * *OPTIONAL* Can return empty string
  */
-DllExport inline const char* GithubLink() {
-    return "";
-}
+DllExport const char* GithubLink();
