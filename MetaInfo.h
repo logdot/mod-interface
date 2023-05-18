@@ -1,5 +1,5 @@
 #pragma once
-#define DllExport __declspec( dllexport )
+#define DllExport extern "C" __declspec( dllexport )
 
 /**
  * The name of your mod.

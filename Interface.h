@@ -10,7 +10,7 @@
  */
 
 #pragma once
-#define DllExport __declspec( dllexport )
+#define DllExport extern "C" __declspec( dllexport )
 
 #include <iostream>
 
